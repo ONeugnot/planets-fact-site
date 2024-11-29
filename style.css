@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Big+Shoulders+Display:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Big+Shoulders+Display:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&display=swap");
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #070724;
+	color: white;
+	height: 100vh;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.burger {
+	width: 10%;
+	display: flex;
+	flex-direction: column;
+}
+
+span {
+	width: 10%;
+	background-color: white;
+}
+
+.header {
+	font-family: "Antonio", sans-serif;
+	display: flex;
+}
+
+.normal {
+	font-family: "League Spartan", serif;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 20px;
+	font-size: 15px;
+	opacity: 50%;
+}
+
+hr {
+	width: 100%;
+	opacity: 50%;
+}
+
+.middle {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 40px;
+	gap: 35px;
+}
+
+.middle h1 {
+	font-size: 40px;
+	font-family: "Antonio", sans-serif;
+}
+
+.middle p {
+	font-weight: 400;
+	font-size: 12px;
+	font-family: "League Spartan", serif;
+}
+
+.info {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 90%;
+	text-align: center;
+	padding: 30px;
+}
+
+.source {
+	margin-top: 15px;
+	opacity: 50%;
+	font-family: "League Spartan", serif;
+}
+
+.footer {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.meteo {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 25px;
+	gap: 50px;
+	border: 1px solid #ffffff;
+	padding: 10px;
+	width: 90%;
+}
+
+.meteo .mid {
+	opacity: 50%;
+	font-family: "League Spartan", serif;
+}
+
+.full {
+	opacity: 100%;
+	font-size: 20px;
+	font-weight: 400;
+	font-family: "Antonio", sans-serif;
+}
+
+.nav-media {
+	display: none;
+}
+
+.information {
+	display: none;
+}
+
+@media screen and (min-width: 481px) {
+	body {
+		width: 90vh;
+	}
+
+	main {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.header {
+		display: flex;
+		justify-content: center;
+	}
+
+	.hr-1 {
+		display: none;
+	}
+
+	.normal {
+		display: none;
+	}
+	.nav-media {
+		display: flex;
+		gap: 1px;
+		justify-content: space-around;
+		font-size: 12px;
+	}
+
+	.middle {
+		display: flex;
+		align-items: start;
+	}
+
+	.image {
+		display: flex;
+		justify-content: center;
+		margin: auto;
+		margin-top: 50px;
+		width: 100%;
+	}
+
+	.img {
+		width: 40%;
+	}
+
+	.info {
+		width: 70%;
+		display: flex;
+		align-items: start;
+		justify-content: start;
+		flex-direction: column;
+	}
+
+	.information {
+		display: flex;
+		flex-direction: row;
+		gap: 10px;
+		padding: 10px;
+		width: 90%;
+		border: 2px solid white;
+	}
+
+	.info-media {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 20px;
+		width: 40%;
+		margin-top: 35px;
+	}
+
+	.media-info {
+		display: flex;
+		flex-direction: row;
+	}
+	.blanc {
+		opacity: 100%;
+	}
+
+	.moitie {
+		opacity: 50%;
+	}
+	.burger {
+		display: none;
+	}
+
+	.info p {
+		opacity: 50%;
+	}
+
+	.footer {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		width: 70%;
+	}
+}
